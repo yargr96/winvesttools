@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>Моя презентация</title>
+        <title>О проекте</title>
         <meta name="description" content="Dashboard UI Kit">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -31,7 +31,7 @@
                 <ul class="c-sidebar__list">
 
                     <li class="c-sidebar__item">
-                        <a class="c-sidebar__link" href="index.html">
+                        <a class="c-sidebar__link is-active" href="index.html">
                             О проекте
                         </a>
                     </li>
@@ -43,7 +43,7 @@
                     </li>
 
                     <li class="c-sidebar__item">
-                        <a class="c-sidebar__link is-active" href="my-presentation.html">
+                        <a class="c-sidebar__link" href="my-presentation.html">
                             Моя презентация
                         </a>
                     </li>
@@ -76,8 +76,8 @@
                 <h4 class="c-sidebar__title"></h4>
                 <ul class="c-sidebar__list">
                     <li class="c-sidebar__item">
-                        <a class="c-sidebar__link" target="_blank" href="support.html">
-                            Техническая поддержка
+                        <a class="c-sidebar__link" target="_blank" href="https://zawiastudio.com/dashboard/changelog">
+                            Быстрый старт
                         </a>
                     </li>
                 </ul>
@@ -95,6 +95,7 @@
 
                 <h2 class="c-navbar__title u-mr-auto">Winvesttools - официальный партнер winvest money.</h2>
                 
+                <!-- Место для кнопок -->
                 <a href="#" class="c-btn c-btn--secondary c-btn--small u-mr-small">Тариф активен до 22.12.2019</a>
                 <a href="#" class="c-btn c-btn--secondary c-btn--small u-mr-small">Продлить подписку</a>
 
@@ -115,19 +116,41 @@
                 <div class="row u-mb-small">
                     <div class="col-12">
                         <div class="c-card u-p-medium">
+                            <h2 class="u-h3 u-text-center">Что такое Winvesttools</h2>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="row u-mb-small">
+                    <div class="col-md-8 u-mb-small">
+                        <div class="c-card u-p-medium">
                             <div class="row u-justify-center">
-                                <div class="col-md-9">
-                                    <p class="u-mb-small u-text-large">Как это работает:</p>
-                                    <p class="u-mb-small u-text-large">
-                                        1. Вы вставляете вашу партнерскую ссылку с сайта winvestmoney.com
-                                        <br>
-                                        2. Нажимаете создать презентацию <br>
-                                        3. Ваша презентация готова. Вы можете скачать ее, нажав на кнопку "Скачать"<br>
-                                        4. Отправляйте презентацию друзьям <br>
-                                        5. При нажатии на любую ссылку в презентации, человек попадает в вашу бизнес структуру на сайте winvestmoney.com
-                                    </p>
+                                <div class="col-md-12">
+                                    <p class="u-mb-small u-text-large">В 21 веке для привлечения внимания человека уже не достаточно просто рассказать о проекте. Сайт, презентация и другие рекламные материалы являются необходимыми элементами для передачи информации.</p>
+                                    <p class="u-mb-small u-text-large">Но, не всегда есть время, надежные исполнители, и наконец финансы для их реализации.</p>
+                                    <p class="u-mb-small u-text-large">Winvesttools - решает эти проблемы и включает все инструменты, которые помогут в привлечении партнеров и построении бизнес-структуры.</p>
+                                    <p class="u-mb-small u-text-large">Давайте посчитаем, сколько денег экономит вам сервис: <br>
+                                    Создание сайта: 40 000 рублей <br>
+                                    Дизайн презентации: 20 000 рублей <br>
+                                    Дизайн визитки: 1000 рублей <br>
+                                    Обучающие видео по ведению контента в инстаграм: 8000 <br>
+                                    Изображения для контента: 5000</p>
+                                    <p class="u-mb-small u-text-large">Только по подсчетам этих инструментов, сумма на разработку составит 74000 рублей, при этом, вы потратите несколько месяцев на разработку.</p>
+                                    <p class="u-mb-small u-text-large">Сервис предлагает Вам прямо сейчас, всего за 5 минут и 20$ в месяц получить все эти инструменты.</p>
+                                    <p class="u-mb-small u-text-large">Бонусом, вы будете первыми получать материалы с семинаров, презентации и фото-отчеты.</p>
+                                    
                                 </div>
                             </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="c-card u-p-medium">
+                            <!-- Видео находится только в папке dist, в src его нет -->
+                            <video controls style="width: 100%; max-height: 90vh">
+                                <source src="Winvesttools.ru.mp4" type="video/mp4" media="all and (max-width:480px)">
+                            </video>
                         </div>
                     </div>
                 </div><!-- // .row -->
@@ -135,26 +158,16 @@
                 <div class="row u-mb-small">
                     <div class="col-12">
                         <div class="c-card u-p-medium">
-
-                            <div class="row u-justify-center u-text-center u-mb-small">
+                            
+                            <div class="row u-justify-center">
                                 <div class="col-md-7">
-                                    <p class="u-mb-medium u-text-large">Введите партнерскую ссылку с сайта winvestmoney.com</p>
-                                </div>
-                                <div class="col-md-5">
-                                    <input class="c-input" id="input1" type="text" placeholder="Placeholder">
-                                </div>
-                            </div>  
-
-                            <div class="row u-justify-center u-text-center">
-                                <div class="col-md-4">
-                                    <div class="u-mb-small">
-                                        <a href="#" class="c-btn c-btn--success c-btn--fullwidth">Создать презентацию</a>
-                                    </div>
-                                    <div class="u-mb-small">
-                                        <a href="#" class="c-btn c-btn--success c-btn--fullwidth">Скачать презентацию</a>
+                                    <div class="u-text-center">
+                                        <p class="u-mb-small u-text-large">Нажмите на кнопку быстрый старт, чтобы начать!</p>
+                                        <a href="#" class="c-btn c-btn--success c-btn--large">Быстрый старт</a>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
                     </div>
                 </div><!-- // .row -->
